@@ -1,10 +1,10 @@
-import './home.css'
+import './contact.css'
 
-export default function home() {
+export default function contact() {
     const section = document.createElement('section');
 
     const sectionHeader = document.createElement('h1');
-    sectionHeader.innerText = 'Home'
+    sectionHeader.innerText = 'Contact'
 
     const sectionDiv = document.createElement('div');
 

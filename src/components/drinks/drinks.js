@@ -1,10 +1,10 @@
-import './home.css'
+import './drinks.css'
 
-export default function home() {
+export default function drinks() {
     const section = document.createElement('section');
 
     const sectionHeader = document.createElement('h1');
-    sectionHeader.innerText = 'Home'
+    sectionHeader.innerText = 'Drinks'
 
     const sectionDiv = document.createElement('div');
 

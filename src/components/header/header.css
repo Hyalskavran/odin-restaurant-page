@@ -14,8 +14,6 @@ header {
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            /* box-sizing: border-box; */
-            
         }
 
         & button {
@@ -33,7 +31,6 @@ header {
             font-weight: 600;
             padding: 0.5rem 1rem;
             width: 50%;
-            /* border: 1px solid black; */
             border-radius: 10%;
             overflow: hidden;
             transition: transform 0.3s ease-out;

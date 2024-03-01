@@ -1,10 +1,10 @@
-import './home.css'
+import './fastfood.css'
 
-export default function home() {
+export default function fastfood() {
     const section = document.createElement('section');
 
     const sectionHeader = document.createElement('h1');
-    sectionHeader.innerText = 'Home'
+    sectionHeader.innerText = 'Fastfood'
 
     const sectionDiv = document.createElement('div');
 

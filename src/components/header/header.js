@@ -7,13 +7,11 @@ import Drinks from './drinks.svg'
 import Contact from './contact.svg'
 
 export default function header() {
-    const header = document.createElement('header');
     const nav = document.createElement('nav');
     const ul = document.createElement('ul');
 
     const liList = [['Home', Home], ['Pizza', Pizza], ['Fastfood', Fastfood], ['Drinks', Drinks], ['Contact', Contact]];
 
-    header.appendChild(nav);
     nav.appendChild(ul);
 
     for (let element of liList) {
@@ -21,6 +19,7 @@ export default function header() {
 
         const button = document.createElement('button');
         button.innerHTML = element[0];
+        button.classList.add('link', element[0])
 
         const image = new Image();
         image.src = element[1];
@@ -31,5 +30,5 @@ export default function header() {
         ul.appendChild(li);
     }
 
-    return header
+    return nav
 };
