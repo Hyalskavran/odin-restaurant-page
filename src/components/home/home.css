@@ -1,0 +1,24 @@
+section {
+    display: grid;
+    padding: 1rem;
+
+    & div {
+        background-color: #333333bb;
+        border-radius: 20px;
+        padding: 0 1rem;
+    }
+
+    & h1 {
+        font-size: 3rem;
+        -webkit-text-stroke: 0.1rem black;
+        text-shadow: 2px 2px 4px black;
+    }
+
+    & p {
+        font-size: 1.2rem;
+        text-shadow: 2px 2px 4px black;
+        text-indent: 2rem;
+        letter-spacing: 0.08rem;
+        line-height: 1.4;
+    }
+}

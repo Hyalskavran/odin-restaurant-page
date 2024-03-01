@@ -3,35 +3,17 @@
 body {
     margin: 0;
     padding: 0;
-    /* display: flex; */
-    /* height: 100vh;
-    align-items: center; */
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
     font-family: "Lato", sans-serif;
+    background-image: url('./nick-karvounis-Ciqxn7FE4vE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-header {
-    & nav {
-        display: grid;
-    }
-    
-    & ul {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        list-style: none;
-        text-align: center;
-
-        & button {
-            appearance: none;
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-            outline: none;
-            font-family: inherit;
-            font-size: 1.2rem;
-            font-weight: 600;
-            padding: 0.5rem 1rem;
-        }
-    }
+* {
+    color: white;
 }
-

@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    background-color: #111;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    padding: 1rem;
+    position: sticky;
+    bottom: 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+
+    & button {
+        font-size: 1.2rem;
+        font-weight: 900;
+        letter-spacing: 0.1rem;
+        background: none;
+        border: none;
+        color: rgb(30, 165, 255);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    & img {
+        width: 3rem;
+    }
+}
